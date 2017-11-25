@@ -1,0 +1,218 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_LabelTitle_RESID L"New" /* LabelTitle ID_BTN_NEW_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_LabelDescription_RESID L"New Description" /* LabelDescription ID_BTN_NEW_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_TooltipTitle_RESID L"New File" /* TooltipTitle ID_BTN_NEW_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_TooltipDescription_RESID L"Create a new image." /* TooltipDescription ID_BTN_NEW_TooltipDescription_RESID: (null) */
+END
+
+ID_BTN_NEW_LargeImages_RESID    IMAGE    "Images\\new.png" /* LargeImages ID_BTN_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_BTN_OPEN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_LabelDescription_RESID L"Open Description" /* LabelDescription ID_BTN_OPEN_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_TooltipTitle_RESID L"Open File" /* TooltipTitle ID_BTN_OPEN_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_TooltipDescription_RESID L"Open an existing image." /* TooltipDescription ID_BTN_OPEN_TooltipDescription_RESID: (null) */
+END
+
+ID_BTN_OPEN_LargeImages_RESID    IMAGE    "Images\\open.png" /* LargeImages ID_BTN_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_BTN_SAVE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_LabelDescription_RESID L"Save Description" /* LabelDescription ID_BTN_SAVE_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_TooltipTitle_RESID L"Save File" /* TooltipTitle ID_BTN_SAVE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_TooltipDescription_RESID L"Save the current image." /* TooltipDescription ID_BTN_SAVE_TooltipDescription_RESID: (null) */
+END
+
+ID_BTN_SAVE_LargeImages_RESID    IMAGE    "Images\\save.png" /* LargeImages ID_BTN_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_BTN_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelDescription_RESID L"Exit Description" /* LabelDescription ID_BTN_EXIT_LabelDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_TooltipTitle_RESID L"Exit" /* TooltipTitle ID_BTN_EXIT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_TooltipDescription_RESID L"Exit application." /* TooltipDescription ID_BTN_EXIT_TooltipDescription_RESID: (null) */
+END
+
+ID_BTN_EXIT_LargeImages_RESID    IMAGE    "Images\\exit.png" /* LargeImages ID_BTN_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_BTN_LINE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelDescription_RESID L"Sub button Line" /* LabelDescription ID_BTN_LINE_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_LINE_LargeImages_RESID    IMAGE    "Images\\line.png" /* LargeImages ID_BTN_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECT_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_BTN_RECT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECT_LabelDescription_RESID L"Sub button Rect" /* LabelDescription ID_BTN_RECT_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_RECT_LargeImages_RESID    IMAGE    "Images\\rectangle.png" /* LargeImages ID_BTN_RECT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_BTN_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelDescription_RESID L"Sub button Ellipse" /* LabelDescription ID_BTN_ELLIPSE_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_ELLIPSE_LargeImages_RESID    IMAGE    "Images\\ellipse.png" /* LargeImages ID_BTN_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_APP_MAIN_LabelTitle_RESID L"Main" /* LabelTitle ID_APP_MAIN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TAB_HOME_LabelTitle_RESID L"Home" /* LabelTitle ID_TAB_HOME_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GROUP_EXIT_LabelTitle_RESID L"" /* LabelTitle ID_GROUP_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GROUPS_SHAPES_LabelTitle_RESID L"Shapes" /* LabelTitle ID_GROUPS_SHAPES_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MENU_SIZE_LabelTitle_RESID L"Size" /* LabelTitle ID_MENU_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_MENU_SIZE_LargeImages_RESID    BITMAP    "Images\\menusize.bmp" /* LargeImages ID_MENU_SIZE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SIZE1_LabelTitle_RESID L"1 px" /* LabelTitle ID_BTN_SIZE1_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SIZE1_SmallImages_RESID    IMAGE    "Images\\size1.png" /* SmallImages ID_BTN_SIZE1_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SIZE2_LabelTitle_RESID L"4 px" /* LabelTitle ID_BTN_SIZE2_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SIZE2_SmallImages_RESID    IMAGE    "Images\\size2.png" /* SmallImages ID_BTN_SIZE2_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SIZE3_LabelTitle_RESID L"10 px" /* LabelTitle ID_BTN_SIZE3_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SIZE3_SmallImages_RESID    IMAGE    "Images\\size3.png" /* SmallImages ID_BTN_SIZE3_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_GROUPS_COLOR_LabelTitle_RESID L"Colors" /* LabelTitle ID_GROUPS_COLOR_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OUTLINE_LabelTitle_RESID L"Outline" /* LabelTitle ID_BTN_OUTLINE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OUTLINE_LabelDescription_RESID L"Outline color" /* LabelDescription ID_BTN_OUTLINE_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_OUTLINE_LargeImages_RESID    IMAGE    "Images\\outline.png" /* LargeImages ID_BTN_OUTLINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_FILL_LabelTitle_RESID L"Fill" /* LabelTitle ID_BTN_FILL_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_FILL_LabelDescription_RESID L"Fill color" /* LabelDescription ID_BTN_FILL_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_FILL_LargeImages_RESID    IMAGE    "Images\\fill.png" /* LargeImages ID_BTN_FILL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_NOFILL_LabelTitle_RESID L"No fill" /* LabelTitle ID_BTN_NOFILL_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NOFILL_LabelDescription_RESID L"No fill color" /* LabelDescription ID_BTN_NOFILL_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_NOFILL_LargeImages_RESID    IMAGE    "Images\\nofill.png" /* LargeImages ID_BTN_NOFILL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_UNDO_LabelTitle_RESID L"Undo" /* LabelTitle ID_BTN_UNDO_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_UNDO_LabelDescription_RESID L"Back 1 step" /* LabelDescription ID_BTN_UNDO_LabelDescription_RESID: (null) */
+END
+
+ID_BTN_UNDO_LargeImages_RESID    IMAGE    "Images\\undo.png" /* LargeImages ID_BTN_UNDO_LargeImages_RESID: (null) */
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

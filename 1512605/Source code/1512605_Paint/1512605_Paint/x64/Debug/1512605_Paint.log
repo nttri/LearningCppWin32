@@ -1,6 +1,0 @@
-﻿  1512605_Paint.cpp
-e:\thanhtri\nam3_hk1\lt win\deadline\1512605\source code\1512605_paint\1512605_paint\1512605_paint.cpp(233): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-e:\thanhtri\nam3_hk1\lt win\deadline\1512605\source code\1512605_paint\1512605_paint\1512605_paint.cpp(247): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-e:\thanhtri\nam3_hk1\lt win\deadline\1512605\source code\1512605_paint\1512605_paint\1512605_paint.cpp(493): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-  1512605_Paint.vcxproj -> E:\thanhtri\Nam3_hk1\LT WIN\DEADLINE\1512605\Source code\1512605_Paint\x64\Debug\1512605_Paint.exe
-  1512605_Paint.vcxproj -> E:\thanhtri\Nam3_hk1\LT WIN\DEADLINE\1512605\Source code\1512605_Paint\x64\Debug\1512605_Paint.pdb (Full PDB)

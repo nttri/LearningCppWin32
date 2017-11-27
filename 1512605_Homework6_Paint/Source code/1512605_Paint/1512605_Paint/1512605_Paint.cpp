@@ -272,7 +272,7 @@ void OnCommand(HWND hWnd, int id, HWND hwndCtl, UINT codeNotify)
 	}
 }
 
-void OnButtonDown(HWND hwnd, int dc, int x, int y, LPARAM lParam)
+void OnButtonDown(HWND hwnd, bool isDoubleClick, int x, int y, LPARAM lParam)
 {
 	if (!isDrawing)
 	{

@@ -38,7 +38,7 @@ void SaveBMPFile(HWND hwnd, HDC hdc, WCHAR* duongdan);
 //____________________WM function______________________
 BOOL OnCreate(HWND hwnd, LPCREATESTRUCT lpCreateStruct);
 void OnCommand(HWND hwnd, int id, HWND hwndCtl, UINT codeNotify);
-void OnButtonDown(HWND hwnd, int dc, int x, int y, LPARAM lParam);
+void OnButtonDown(HWND hwnd, bool isDoubleClick, int x, int y, LPARAM lParam);
 void OnButtonUp(HWND hwnd, int x, int wParam, LPARAM lParam);
 void OnMouseMove(HWND hwnd, int x, int y, LPARAM lParam);
 void OnPaint(HWND hwnd);

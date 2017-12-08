@@ -1,0 +1,83 @@
+// *****************************************************************************
+// * This is an automatically generated header file for UI Element definition  *
+// * resource symbols and values. Please do not modify manually.               *
+// *****************************************************************************
+
+#pragma once
+
+#define ID_BTN_NEW 2 
+#define ID_BTN_NEW_LabelTitle_RESID 60001
+#define ID_BTN_NEW_LabelDescription_RESID 60002
+#define ID_BTN_NEW_TooltipTitle_RESID 60003
+#define ID_BTN_NEW_TooltipDescription_RESID 60004
+#define ID_BTN_NEW_LargeImages_RESID 60005
+#define ID_BTN_OPEN 3 
+#define ID_BTN_OPEN_LabelTitle_RESID 60006
+#define ID_BTN_OPEN_LabelDescription_RESID 60007
+#define ID_BTN_OPEN_TooltipTitle_RESID 60008
+#define ID_BTN_OPEN_TooltipDescription_RESID 60009
+#define ID_BTN_OPEN_LargeImages_RESID 60010
+#define ID_BTN_SAVE 4 
+#define ID_BTN_SAVE_LabelTitle_RESID 60011
+#define ID_BTN_SAVE_LabelDescription_RESID 60012
+#define ID_BTN_SAVE_TooltipTitle_RESID 60013
+#define ID_BTN_SAVE_TooltipDescription_RESID 60014
+#define ID_BTN_SAVE_LargeImages_RESID 60015
+#define ID_BTN_EXIT 5 
+#define ID_BTN_EXIT_LabelTitle_RESID 60016
+#define ID_BTN_EXIT_LabelDescription_RESID 60017
+#define ID_BTN_EXIT_TooltipTitle_RESID 60018
+#define ID_BTN_EXIT_TooltipDescription_RESID 60019
+#define ID_BTN_EXIT_LargeImages_RESID 60020
+#define ID_BTN_LINE 6 
+#define ID_BTN_LINE_LabelTitle_RESID 60021
+#define ID_BTN_LINE_LabelDescription_RESID 60022
+#define ID_BTN_LINE_LargeImages_RESID 60023
+#define ID_BTN_RECT 7 
+#define ID_BTN_RECT_LabelTitle_RESID 60024
+#define ID_BTN_RECT_LabelDescription_RESID 60025
+#define ID_BTN_RECT_LargeImages_RESID 60026
+#define ID_BTN_ELLIPSE 8 
+#define ID_BTN_ELLIPSE_LabelTitle_RESID 60027
+#define ID_BTN_ELLIPSE_LabelDescription_RESID 60028
+#define ID_BTN_ELLIPSE_LargeImages_RESID 60029
+#define ID_APP_MAIN 9 
+#define ID_APP_MAIN_LabelTitle_RESID 60030
+#define ID_TAB_HOME 10 
+#define ID_TAB_HOME_LabelTitle_RESID 60031
+#define ID_GROUP_EXIT 11 
+#define ID_GROUP_EXIT_LabelTitle_RESID 60032
+#define ID_GROUPS_SHAPES 12 
+#define ID_GROUPS_SHAPES_LabelTitle_RESID 60033
+#define ID_GROUPS_SIZE 13 
+#define ID_MENU_SIZE 14 
+#define ID_MENU_SIZE_LabelTitle_RESID 60034
+#define ID_MENU_SIZE_LargeImages_RESID 60035
+#define ID_BTN_SIZE1 15 
+#define ID_BTN_SIZE1_LabelTitle_RESID 60036
+#define ID_BTN_SIZE1_SmallImages_RESID 60037
+#define ID_BTN_SIZE2 16 
+#define ID_BTN_SIZE2_LabelTitle_RESID 60038
+#define ID_BTN_SIZE2_SmallImages_RESID 60039
+#define ID_BTN_SIZE3 17 
+#define ID_BTN_SIZE3_LabelTitle_RESID 60040
+#define ID_BTN_SIZE3_SmallImages_RESID 60041
+#define ID_GROUPS_COLOR 18 
+#define ID_GROUPS_COLOR_LabelTitle_RESID 60042
+#define ID_BTN_OUTLINE 19 
+#define ID_BTN_OUTLINE_LabelTitle_RESID 60043
+#define ID_BTN_OUTLINE_LabelDescription_RESID 60044
+#define ID_BTN_OUTLINE_LargeImages_RESID 60045
+#define ID_BTN_FILL 20 
+#define ID_BTN_FILL_LabelTitle_RESID 60046
+#define ID_BTN_FILL_LabelDescription_RESID 60047
+#define ID_BTN_FILL_LargeImages_RESID 60048
+#define ID_BTN_NOFILL 21 
+#define ID_BTN_NOFILL_LabelTitle_RESID 60049
+#define ID_BTN_NOFILL_LabelDescription_RESID 60050
+#define ID_BTN_NOFILL_LargeImages_RESID 60051
+#define ID_GROUPS_UNDO 22 
+#define ID_BTN_UNDO 23 
+#define ID_BTN_UNDO_LabelTitle_RESID 60052
+#define ID_BTN_UNDO_LabelDescription_RESID 60053
+#define ID_BTN_UNDO_LargeImages_RESID 60054

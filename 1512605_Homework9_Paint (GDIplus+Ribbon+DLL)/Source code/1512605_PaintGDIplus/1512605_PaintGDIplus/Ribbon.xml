@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  <Application.Commands>
+    <Command Name="cmdButtonNew"
+             Symbol="ID_BTN_NEW"
+             LabelTitle="New"
+             LabelDescription="New Description"
+             TooltipTitle="New File"
+             TooltipDescription="Create a new image.">
+      <Command.LargeImages>
+        <Image>Images/new.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonOpen"
+             Symbol="ID_BTN_OPEN"
+             LabelTitle="Open"
+             LabelDescription="Open Description"
+             TooltipTitle="Open File"
+             TooltipDescription="Open an existing image.">
+      <Command.LargeImages>
+        <Image>Images/open.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonSave"
+             Symbol="ID_BTN_SAVE"
+             LabelTitle="Save"
+             LabelDescription="Save Description"
+             TooltipTitle="Save File"
+             TooltipDescription="Save the current image.">
+      <Command.LargeImages>
+        <Image>Images/save.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonExit"
+             Symbol="ID_BTN_EXIT"
+             LabelTitle="Exit"
+             LabelDescription="Exit Description"
+             TooltipTitle="Exit"
+             TooltipDescription="Exit application.">
+      <Command.LargeImages>
+        <Image>Images/exit.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonLine"
+             Symbol="ID_BTN_LINE"
+             LabelTitle="Line"
+             LabelDescription="Sub button Line">
+      <Command.LargeImages>
+        <Image>Images/line.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonRect"
+             Symbol="ID_BTN_RECT"
+             LabelTitle="Rectangle"
+             LabelDescription="Sub button Rect">
+      <Command.LargeImages>
+        <Image>Images/rectangle.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonEllipse"
+             Symbol="ID_BTN_ELLIPSE"
+             LabelTitle="Ellipse"
+             LabelDescription="Sub button Ellipse">
+      <Command.LargeImages>
+        <Image>Images/ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdAppMain"
+             Symbol="ID_APP_MAIN"
+             LabelTitle="Main"/>
+
+    <Command Name="cmdTabHome"
+             Symbol="ID_TAB_HOME"
+             LabelTitle="Home"/>
+
+    <Command Name="cmdGroupExit"
+             Symbol="ID_GROUP_EXIT"
+             LabelTitle=""/>
+
+    <Command Name="cmdGroupShapes"
+             Symbol="ID_GROUPS_SHAPES"
+             LabelTitle="Shapes"/>
+
+    <Command Name="cmdGroupSize"
+             Symbol="ID_GROUPS_SIZE"/>
+
+    <Command Name="cmdMenuSize"
+             Symbol="ID_MENU_SIZE"
+             LabelTitle="Size">
+      <Command.LargeImages>
+        <Image>Images/menusize.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonSize1"
+             Symbol="ID_BTN_SIZE1"
+             LabelTitle="1 px">
+      <Command.SmallImages>
+        <Image>Images/size1.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="cmdButtonSize2"
+             Symbol="ID_BTN_SIZE2"
+             LabelTitle="4 px">
+      <Command.SmallImages>
+        <Image>Images/size2.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="cmdButtonSize3"
+             Symbol="ID_BTN_SIZE3"
+             LabelTitle="10 px">
+      <Command.SmallImages>
+        <Image>Images/size3.png</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="cmdGroupColor"
+             Symbol="ID_GROUPS_COLOR"
+             LabelTitle="Colors"/>
+
+    <Command Name="cmdButtonOutline"
+         Symbol="ID_BTN_OUTLINE"
+         LabelTitle="Outline"
+         LabelDescription="Outline color">
+      <Command.LargeImages>
+        <Image>Images/outline.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdButtonFill"
+         Symbol="ID_BTN_FILL"
+         LabelTitle="Fill"
+         LabelDescription="Fill color">
+      <Command.LargeImages>
+        <Image>Images/fill.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonNoFill"
+         Symbol="ID_BTN_NOFILL"
+         LabelTitle="No fill"
+         LabelDescription="No fill color">
+      <Command.LargeImages>
+        <Image>Images/nofill.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdGroupUndo"
+             Symbol="ID_GROUPS_UNDO"/>
+
+    <Command Name="cmdButtonUndo"
+           Symbol="ID_BTN_UNDO"
+           LabelTitle="Undo"
+           LabelDescription="Back 1 step">
+      <Command.LargeImages>
+        <Image>Images/undo.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+  </Application.Commands>
+  
+  <!--========================================= VIEW ======================================-->
+  
+  <Application.Views>
+    <Ribbon>
+
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="cmdAppMain">
+          <MenuGroup>
+            <Button CommandName="cmdButtonNew" />
+            <Button CommandName="cmdButtonOpen" />
+            <Button CommandName="cmdButtonSave" />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="cmdButtonExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+
+      <Ribbon.Tabs>
+        <Tab CommandName ="cmdTabHome">
+          <Group CommandName="cmdGroupShapes" SizeDefinition="ThreeButtons">
+            <ToggleButton CommandName="cmdButtonLine" />
+            <ToggleButton CommandName="cmdButtonRect" />
+            <ToggleButton CommandName="cmdButtonEllipse" />
+          </Group>
+          
+          <Group CommandName='cmdGroupSize' SizeDefinition='OneButton'>
+            <DropDownGallery CommandName='cmdMenuSize' TextPosition='Hide' Type='Items' ItemHeight='32' ItemWidth='128' HasLargeItems='true'>
+              <DropDownGallery.MenuLayout>
+                <FlowMenuLayout Columns='1' Rows='3' Gripper='None' />
+              </DropDownGallery.MenuLayout>
+            <DropDownGallery.MenuGroups>
+                <MenuGroup>
+                  <Button CommandName="cmdButtonSize1"></Button>
+                  <Button CommandName="cmdButtonSize2"></Button>
+                  <Button CommandName="cmdButtonSize3"></Button>
+                </MenuGroup>
+              </DropDownGallery.MenuGroups>
+            </DropDownGallery>
+          </Group>
+
+          <Group CommandName="cmdGroupColor" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdButtonOutline"/>
+            <Button CommandName="cmdButtonFill"/>
+            <Button CommandName="cmdButtonNoFill"/>
+          </Group>
+
+          <Group CommandName="cmdGroupUndo" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonUndo"/>
+          </Group>
+
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>

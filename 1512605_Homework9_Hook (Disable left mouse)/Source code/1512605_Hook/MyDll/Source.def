@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+	InitMouseHook @1
+	UninstallMouseHook @2

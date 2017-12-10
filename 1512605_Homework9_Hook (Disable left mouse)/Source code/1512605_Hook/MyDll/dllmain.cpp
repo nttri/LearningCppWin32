@@ -41,8 +41,10 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 		switch (wParam)
 		{
 		case WM_LBUTTONDOWN:
+		case WM_NCLBUTTONDOWN:
+		case WM_LBUTTONUP:
+		case WM_NCLBUTTONUP:
 			return -1;
-			break;
 		default:
 			break;
 		}
